@@ -1,0 +1,139 @@
+/***************************************************
+Add your Google Fonts
+Update ALL the named colours to create a monochromatic scheme
+Style the menus - one horizontally and one vertically
+Add the hover/active effects to your menu items
+***************************************************/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    /* ADD the Google sans-serif font to this font stack */
+    font-family: 'Roboto', arial, sans-serif;
+	
+}
+html, body{
+    background-color: #426D7F;
+}
+h1{
+    font-size: 6.854rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: 'Bitter', Palatino, serif; 
+    padding: 1rem 2rem;
+	
+}
+h2{
+    font-size: 4.23rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: 'Bitter', Palatino, serif;
+    padding: 1rem 2rem;
+
+}
+nav li{
+    font-size: 2.618rem;
+}
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+	
+	
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #D0F1FF;
+    color: #69AFCC;
+	
+}
+header{
+    border-bottom: 0.8rem solid #68797F;
+    background-color: #84DAFF;
+    color: #69AFCC;
+}
+.menu-h{
+    width: 100%;
+	color: #426D7F;
+	margin: 15px 0px -40px 200px;
+
+	padding: 0;
+	
+}
+    .menu-h li{
+        /* style the list items to remove the bullets 
+        and line up horizontally
+        and take up 20% of the width of the ul */
+		list-style: none;
+		float: left;
+		margin: 0 0 60px 0;
+		background-color:  	#69AFCC;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-left: 20px;
+		padding-right: 20px; 
+		width: 20;
+		
+		
+		
+    }
+
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+          
+			width: 20%;
+        }
+        .menu-h a:hover,
+        .menu-h a:active{
+            color: lightblue;
+			width: 20%;
+        }
+.menu-v{
+    width: 20%;
+
+	margin-top: 30px;
+}
+    .menu-v li{
+        /* style the list items to remove the bullets 
+        and line up vertically
+        and take up 100% of the width of the ul */
+		list-style: none;
+		padding-top: 0px;
+		padding-left: 15px;
+		color: #426D7F;
+		margin: 0 0 0 20px;
+		float: left;
+		clear: both;
+	
+		
+		
+		
+    }
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+            /* style the anchors to fill the entire width of the li */
+		
+        }
+        .menu-v a:hover,
+        .menu-v a:active{
+             	box-shadow: 1px 1px 1px 3px;
+				
+        }
+main{
+    float: right;
+	width: 80%;
+	clear: both;
+	
+    
+}
+footer{
+    clear:both;
+}
